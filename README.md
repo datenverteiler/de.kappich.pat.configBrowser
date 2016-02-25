@@ -1,4 +1,4 @@
-de.kappich.pat.configBrowser v${project.version} [![Build Status](https://travis-ci.org/datenverteiler/de.kappich.pat.configBrowser.svg?branch=develop)](https://travis-ci.org/datenverteiler/de.kappich.pat.configBrowser)
+de.kappich.pat.configBrowser v${project.version} [![Build Status](https://travis-ci.org/datenverteiler/de.kappich.pat.configBrowser.svg?branch=master)](https://travis-ci.org/datenverteiler/de.kappich.pat.configBrowser)
 ===================================
 
 
