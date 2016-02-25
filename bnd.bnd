@@ -1,0 +1,4 @@
+-exportcontents: de.kappich.pat.configBrowser.*
+-sources: true
+
+Bundle-Name: de.kappich.pat.configBrowser
