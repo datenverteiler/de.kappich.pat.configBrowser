@@ -153,6 +153,7 @@
                                     <addClasspath>true</addClasspath>
                                     <classpathLayoutType>custom</classpathLayoutType>
                                     <customClasspathLayout>../${artifact.artifactId}/${artifact.artifactId}-runtime.${artifact.extension}</customClasspathLayout>
+                                    <mainClass>de.kappich.pat.configBrowser.main.ConfigConfigurationViewer</mainClass>
                                 </manifest>
                                 <manifestEntries>
                                     <Class-Path>${project.artifactId}.jar ${nonBsvrzClasspath}</Class-Path>
