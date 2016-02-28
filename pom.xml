@@ -153,6 +153,7 @@
                                     <addClasspath>true</addClasspath>
                                     <classpathLayoutType>custom</classpathLayoutType>
                                     <customClasspathLayout>../${artifact.artifactId}/${artifact.artifactId}-runtime.${artifact.extension}</customClasspathLayout>
+                                    <mainClass>de.kappich.pat.configBrowser.main.ConfigConfigurationViewer</mainClass>
                                 </manifest>
                                 <manifestEntries>
                                     <Class-Path>${project.artifactId}.jar ${nonBsvrzClasspath}</Class-Path>
@@ -219,13 +220,12 @@
                 <dependencies>
                     <dependency>
                         <groupId>com.github.datenverteiler</groupId>
-                        <artifactId>systemelement-assembly</artifactId>
+                        <artifactId>datenverteiler-assembly</artifactId>
                         <version>1.0.0-SNAPSHOT</version>
                     </dependency>
                 </dependencies>
                 <configuration>
                     <finalName>SWE_${project.artifactId}_${distributionspaket.status}_V${project.version}_D${distributionspaket.standDatum}</finalName>
-                    <appendAssemblyId>false</appendAssemblyId>
 <!--
                     <descriptorRefs>
                         <descriptorRef>distributionspaket</descriptorRef>
